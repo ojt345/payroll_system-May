@@ -1,0 +1,298 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Control Buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 20px;
+   }
+
+.payslips-wrapper {
+    margin: 20px auto; /* Add top and bottom margin */
+    max-width: 90%;
+}
+
+.payslip-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    page-break-after: always;
+    gap: 20px;
+}
+
+.payslip-container {
+    width: 49%; 
+    border: 2px solid #000000; 
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.logo1 {
+    width: 70px; /* Slightly reduced */
+    height: 70px;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+    z-index: 1; 
+}
+
+.header-text h3 {
+    margin: 0;
+    font-size: 10px; /* Slightly reduced */
+    line-height: 1.6;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.logo2 {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 140px; /* Slightly reduced */
+    height: auto;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.divider {
+    width: 100%;
+    height: 40px; /* Slightly reduced */
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.period {
+    font-size: 11px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.employee-info {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.employee-info-row {
+    display: table-row;
+}
+
+.info-label {
+    display: table-cell;
+    font-weight: normal;
+    text-align: left;
+    padding-right: 20px;
+    padding-bottom: 3px;
+}
+
+.info-value {
+    display: table-cell;
+    text-align: right;
+    font-weight: normal;
+    padding-bottom: 3px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.subsection-title {
+    font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.income-section, .deductions-section {
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.item-label {
+    text-align: left;
+    flex-grow: 1;
+    font-size: 11px;
+}
+
+.item-value {
+    text-align: right;
+    min-width: 80px;
+    font-size: 11px;
+}
+
+.total-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    padding: 2px 0;
+    margin: 5px 0 10px 0;
+}
+
+.total-row .item {
+    justify-content: center;
+    gap: 50px; /* space between label and value */
+}
+
+.total-row .item-label,
+.total-row .item-value {
+    text-align: center;
+    min-width: unset;
+}
+
+.proceed-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.proceed-details .item-label {
+    text-align: right;
+}
+
+.signatures {
+    margin-top: 80px; /* Reduced space */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.signature-block {
+    width: 45%;
+    text-align: left;
+}
+
+.signature-label {
+    margin-bottom: 30px; /* Reduced space */
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.signature-line {
+    border-top: 1px solid black;
+    height: 1px;
+    margin: 0 auto 5px auto;
+}
+
+.signature-name {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.barcode {
+    text-align: left;
+}
+
+.barcode-svg {
+    height: 30px;
+}
+
+.payslip-footer {
+    font-size: 9px;
+    text-align: right;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    margin: 4px 0;
+}
+
+.summary-row .item-label {
+    text-align: right;
+    width: 100%; 
+}
+
+.summary-row .item-value {
+    text-align: right;
+    width: 70%;
+}
+
+.border-single {
+    border-bottom: 2px solid black;
+    padding: 2px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.border-double {
+    border-bottom: 4px double black;
+    padding: 2px;
+    width: 50%;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        padding: 0;
+        background-color: white;
+    }
+    
+    .controls {
+        display: none !important;
+    }
+
+}

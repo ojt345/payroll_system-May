@@ -1,0 +1,270 @@
+Script started at: 2025-04-30 17:00:27
+Payroll Number: 2931897
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931897
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 17:00:27
+
+Script started at: 2025-04-30 17:06:47
+Payroll Number: 2931897
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931897
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 17:06:47
+
+Script started at: 2025-04-30 17:06:47
+Payroll Number: 2931897
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931897
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 17:06:48
+
+Script started at: 2025-04-30 17:07:22
+Payroll Number: 2931916
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931916
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 17:07:22
+
+Script started at: 2025-04-30 23:20:15
+Payroll Number: 2931916
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931916
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 23:20:15
+
+Script started at: 2025-04-30 23:47:26
+Payroll Number: 2931916
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931916
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 23:47:26
+
+Script started at: 2025-04-30 23:47:39
+Payroll Number: 2931912
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 2931912
+Query executed
+Rows found: 1
+Rows processed: 1
+Sending response: success=true, rows=1, officeCode=7611
+Script ended at: 2025-04-30 23:47:39
+
+Script started at: 2025-05-01 00:02:56
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:02:56
+
+Script started at: 2025-05-01 00:10:04
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:10:04
+
+Script started at: 2025-05-01 00:10:09
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:10:09
+
+Script started at: 2025-05-01 00:13:09
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:13:09
+
+Script started at: 2025-05-01 00:14:53
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:14:53
+
+Script started at: 2025-05-01 00:17:51
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:17:51
+
+Script started at: 2025-05-01 00:18:44
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:18:44
+
+Script started at: 2025-05-01 00:33:23
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:33:23
+
+Script started at: 2025-05-01 00:33:32
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:33:32
+
+Script started at: 2025-05-01 00:36:34
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:36:34
+
+Script started at: 2025-05-01 00:39:41
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:39:41
+
+Script started at: 2025-05-01 00:43:09
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 00:43:09
+
+Script started at: 2025-05-01 01:05:37
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:05:37
+
+Script started at: 2025-05-01 01:11:54
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:11:54
+
+Script started at: 2025-05-01 01:12:07
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:12:07
+
+Script started at: 2025-05-01 01:12:34
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:12:34
+
+Script started at: 2025-05-01 01:13:30
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:13:30
+
+Script started at: 2025-05-01 01:14:48
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:14:48
+
+Script started at: 2025-05-01 01:18:02
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:18:02
+
+Script started at: 2025-05-01 01:21:37
+Payroll Number: 1001
+Database connection successful
+SQL Query: SELECT * FROM tblpayrolljournal WHERE PayrollMstID = ? with PayrollMstID = 1001
+Query executed
+Rows found: 3
+Rows processed: 3
+Sending response: success=true, rows=3, officeCode=
+Script ended at: 2025-05-01 01:21:37
+

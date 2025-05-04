@@ -1,0 +1,585 @@
+Array
+(
+    [payrollNo] => 2931897
+)
+Script started at: 2025-04-30 15:27:59
+POST data: Array
+(
+    [payrollNo] => 2931897
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 15:31:40
+POST data: Array
+(
+    [payrollNo] => 2931897
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 15:32:24
+POST data: Array
+(
+    [payrollNo] => 2931897
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 15:50:13
+POST data: Array
+(
+    [payrollNo] => 2931897
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 16:08:42
+POST data: Array
+(
+    [payrollNo] => 2931897
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 17:00:26
+POST data: Array
+(
+    [payrollNo] => 2931897
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931897
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 17:07:21
+POST data: Array
+(
+    [payrollNo] => 2931916
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931916
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 23:20:15
+POST data: Array
+(
+    [payrollNo] => 2931916
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931916
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 23:47:25
+POST data: Array
+(
+    [payrollNo] => 2931916
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931916
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 23:47:38
+POST data: Array
+(
+    [payrollNo] => 2931912
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931912
+Query executed
+Got result object. Rows: 1
+Fetched 1 rows
+Success response sent
+Connection closed
+Script started at: 2025-04-30 23:59:34
+POST data: Array
+(
+    [payrollNo] => 2931912
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 2931912
+Query executed
+Got result object. Rows: 0
+Fetched 0 rows
+No records found response sent
+Connection closed
+Script started at: 2025-05-01 00:02:56
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:10:09
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:13:08
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:14:53
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:17:51
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:18:44
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:33:20
+Script started at: 2025-05-01 00:33:20
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Database connection successful
+Searching for PayrollMstID: 1001
+Database connection successful
+Searching for PayrollMstID: 1001
+Searching for PayrollMstID: 1001
+Searching for PayrollMstID: 1001
+Script started at: 2025-05-01 00:33:20
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Searching for PayrollMstID: 1001
+Query executed
+Query executed
+Got result object. Rows: 3
+Got result object. Rows: 3
+Got result object. Rows: 3
+Got result object. Rows: 3
+Fetched 3 rows
+Fetched 3 rows
+Fetched 3 rows
+Success responsSuccess response sent
+Success response sent
+Success response sent
+Success response sent
+Success response sent
+Connection closed
+Connection closed
+Connection closed
+Script started at: 2025-05-01 00:33:32
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:36:34
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 00:43:09
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:05:37
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:09:30
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:10:41
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:11:19
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:11:53
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:12:06
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:12:30
+POST data: Array
+(
+    [payrollNo] => 10
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 10
+Query executed
+Got result object. Rows: 0
+Fetched 0 rows
+No records found response sent
+Connection closed
+Script started at: 2025-05-01 01:12:34
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:13:30
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:14:48
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:18:02
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed
+Script started at: 2025-05-01 01:21:37
+POST data: Array
+(
+    [payrollNo] => 1001
+    [date_start] => 
+    [date_end] => 
+    [responsibility] => 
+    [office] => 
+)
+
+Database connection successful
+Searching for PayrollMstID: 1001
+Query executed
+Got result object. Rows: 3
+Fetched 3 rows
+Success response sent
+Connection closed

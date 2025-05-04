@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payroll System Documentation</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 960px; }
+    h1, h2, h3 { color: #2c3e50; }
+    ul, ol { margin-left: 20px; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+    img { max-width: 100%; height: auto; }
+    .screenshot { border: 1px solid #ccc; padding: 5px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>Payroll System Documentation</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    This payroll system provides a solution for managing payroll operations, including generating payroll reports and individual payslips. 
+    The system streamlines the payroll process, ensuring accurate calculations of employee compensation, deductions, and net pay.
+  </p>
+
+  <h2>System Overview</h2>
+  <p>The payroll system consists of two main modules:</p>
+  <ol>
+    <li><strong>Payroll Module</strong>: Allows users to search for and generate payroll reports for specific departments, offices, or periods.</li>
+    <li><strong>Payslip Module</strong>: Enables users to search for and generate individual employee payslips.</li>
+  </ol>
+  <p>Both modules connect to a central database that stores employee information, salary details, deductions, and other relevant payroll data.</p>
+
+  <h2>User Guide</h2>
+
+  <h3>Payroll Request Form</h3>
+  <ol>
+    <li><strong>Access the Form</strong>: Navigate to the payroll request form page.</li>
+    <li><strong>Search Options</strong>: You can search by:
+      <ul>
+        <li>Payroll No., OR</li>
+        <li>Start Date, End Date, Responsibility Center, and Office (all required if Payroll No. is not provided)</li>
+      </ul>
+    </li>
+    <li><strong>Apply Search</strong>: Click the "Apply" button to search for payroll data.</li>
+    <li><strong>View Results</strong>: The system will display the payroll report with detailed information.</li>
+  </ol>
+  <img src="path_to_payroll_request_screenshot.png" alt="Payroll Request Form" class="screenshot">
+
+  <h3>Payslip Request Form</h3>
+  <ol>
+    <li><strong>Access the Form</strong>: Navigate to the payslip request form page.</li>
+    <li><strong>Search Options</strong>: You can search by:
+      <ul>
+        <li>Payroll No., OR</li>
+        <li>Employee #, Start Date, End Date, Responsibility Center, and Office (all required if Payroll No. is not provided)</li>
+      </ul>
+    </li>
+    <li><strong>Apply Search</strong>: Click the "Apply" button to search for payslip data.</li>
+    <li><strong>View Results</strong>: The system will display the employee payslip(s) with detailed information.</li>
+  </ol>
+  <img src="path_to_payslip_request_screenshot.png" alt="Payslip Request Form" class="screenshot">
+
+  <h3>Viewing Reports</h3>
+  <p><strong>Payroll Report</strong>: Displays detailed payroll information for multiple employees including:</p>
+  <ul>
+    <li>Compensations (Salaries and Wages, PERA)</li>
+    <li>Deductions (Tardiness, Tax Withheld, Contributions, Loans)</li>
+    <li>Net Take Home Pay</li>
+    <li>First and Second Half Proceeds</li>
+    <li>Certifications</li>
+    <li>Accounting Entries</li>
+  </ul>
+
+  <p><strong>Payslip Report</strong>: Displays individual employee payslip including:</p>
+  <ul>
+    <li>Employee Information</li>
+    <li>Income Details</li>
+    <li>Government Mandated Deductions</li>
+    <li>Personal Deductions</li>
+    <li>Net Take Home Pay</li>
+    <li>Payment Split (1st and 2nd half)</li>
+  </ul>
+
+  <h3>Downloading Reports</h3>
+  <ol>
+    <li><strong>PDF Download Button</strong>: Both the payroll report and payslip report pages include a "Download as PDF" button.</li>
+    <li><strong>Download Process</strong>:
+      <ul>
+        <li>Click the "Download as PDF" button</li>
+        <li>The system will generate a PDF file of the current report</li>
+        <li>Your browser will automatically download the PDF file</li>
+      </ul>
+    </li>
+    <li><strong>Printing</strong>: You can print the PDF file using your preferred PDF viewer application.</li>
+  </ol>
+
+  <h2>Developer Guide</h2>
+
+  <h3>System Architecture</h3>
+  <p>The payroll system follows a simple MVC-like architecture:</p>
+  <ul>
+    <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
+    <li><strong>Backend</strong>: PHP</li>
+    <li><strong>Database</strong>: MySQL</li>
+  </ul>
+
+  <h3>Database Structure</h3>
+  <p>Key database tables include:</p>
+  <ul>
+    <li><code>responsibility</code> - Responsibility centers</li>
+    <li><code>office</code> - Office information</li>
+    <li><code>payroll</code> - Master payroll records</li>
+    <li><code>employee</code> - Employee information</li>
+    <li>Plus relevant tables for deductions, compensations, etc.</li>
+  </ul>
+
+  <h3>File Structure</h3>
+  <pre>
+/
+├── css/
+│   ├── request_payroll.css
+│   ├── request_payslip.css
+│   ├── payslip_report.css
+│   └── styles.css
+├── html/
+│   ├── request_payroll.php
+│   ├── request_payslip.php
+│   └── ...
+├── images/
+│   ├── logo1.png
+│   ├── logo2.png
+│   ├── logo2.2.png
+│   └── proll.png
+├── php/
+│   ├── db_connection.php
+│   ├── process_search.php
+│   ├── payslip_search.php
+│   └── ...
+├── script/
+│   ├── payroll_report.js
+│   ├── payslip_print.js
+│   └── ...
+└── index.php
+  </pre>
+
+  <h3>Main Components</h3>
+  <p><strong>1. Database Connection</strong><br>
+  The file <code>db_connection.php</code> manages the database connection. Make sure this file is properly configured with database credentials.</p>
+
+  <p><strong>2. Request Forms</strong><br>
+  <code>request_payroll.php</code>: Form for requesting payroll reports<br>
+  <code>request_payslip.php</code>: Form for requesting employee payslips</p>
+
+  <p><strong>3. Processing Scripts</strong><br>
+  <code>process_search.php</code>: Processes payroll search requests<br>
+  <code>payslip_search.php</code>: Processes payslip search requests</p>
+
+  <p><strong>4. Report Generation</strong><br>
+  <code>payroll_report.js</code>: Handles dynamic content for payroll reports<br>
+  <code>payslip_print.js</code>: Manages payslip generation and printing</p>
+
+  <p><strong>5. Styling</strong><br>
+  CSS files in the <code>/css</code> directory control the appearance of forms and reports</p>
+
+  <h3>Known Issues</h3>
+  <ol>
+    <li><strong>Database Connection Fallback</strong>: If database connection fails, the system provides fallback options but with limited functionality.</li>
+    <li><strong>PDF Generation</strong>: The PDF generation relies on client-side libraries (<code>html2pdf.js</code>) which may have browser compatibility issues in older browsers.</li>
+    <li><strong>Form Validation</strong>: Client-side validation is implemented, but server-side validation should be enhanced for better security.</li>
+  </ol>
+
+  <h2>Installation Instructions</h2>
+
+  <ol>
+    <li><strong>Server Requirements</strong>:
+      <ul>
+        <li>PHP 7.0 or higher</li>
+        <li>MySQL 5.6 or higher</li>
+        <li>Web server (Apache/Nginx)</li>
+      </ul>
+    </li>
+    <li><strong>Database Setup</strong>:
+      <ul>
+        <li>Create a new database</li>
+        <li>Import the provided SQL schema (not included in this documentation)</li>
+        <li>Update <code>db_connection.php</code> with your database credentials</li>
+      </ul>
+    </li>
+    <li><strong>File Deployment</strong>:
+      <ul>
+        <li>Upload all files to your web server</li>
+        <li>Ensure proper file permissions (typically 755 for directories, 644 for files)</li>
+        <li>Make sure the <code>php</code> directory has appropriate permissions for database connections</li>
+      </ul>
+    </li>
+    <li><strong>Configuration</strong>:
+      <ul>
+        <li>Check all file paths and URLs in the code</li>
+        <li>Update logo paths if necessary</li>
+        <li>Configure any institution-specific information</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>Maintenance</h2>
+
+  <h3>Regular Maintenance Tasks</h3>
+  <ul>
+    <li>Database Backups</li>
+    <li>Log Monitoring</li>
+    <li>Updates to libraries and dependencies</li>
+    <li>Security Checks</li>
+  </ul>
+
+  <h3>Troubleshooting</h3>
+  <ul>
+    <li><strong>Database Connection Issues</strong>: Check <code>db_connection.php</code>, DB server, and PHP extensions</li>
+    <li><strong>Report Generation Problems</strong>: Inspect console, library loading, and data queries</li>
+    <li><strong>PDF Download Issues</strong>: Check pop-up blockers, library inclusion, and browser compatibility</li>
+  </ul>
+
+  <h2>Contact Information</h2>
+  <p>
+    For technical support or questions about the system, please contact:<br>
+    <strong>System Administrator</strong>: <a href="mailto:admin@example.com">admin@example.com</a><br>
+    <strong>Development Team</strong>: <a href="mailto:dev@example.com">dev@example.com</a><br>
+    <strong>Help Desk</strong>: +63 XXX XXX XXXX
+  </p>
+
+  <hr>
+  <p><em>Last Updated: May 04, 2025</em></p>
+</body>
+</html>
